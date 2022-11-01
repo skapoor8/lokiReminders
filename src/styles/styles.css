@@ -1,0 +1,164 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+:root {
+  --gray-l: #E2E2E2;
+  --gray-m: #C5C5C5;
+  --gray-d: #515C64;
+  --grey-ud: #3B3B3B;
+  --white:  #ffffff;
+  --black:  #000000;
+  --red: #FF3230;
+  --maroon: #FF215F;
+  --blue: #106FFC;
+  --lightblue: #17A4F4;
+  --g: #70c8fb;
+  --green: #00C052;
+  --yellow: #FFC523;
+  --purple: #504CCE;
+  --brown: #987955;
+  --pink: #BA6BD4;
+  --orange: #FF8A1D;
+  --gray: var(--gray-d);
+}
+
+/*
+* Theme - shared
+*/
+
+/* font colors */
+
+.text-red {
+  color: var(--red);
+}
+
+.text-maroon {
+  color: var(--maroon);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-ightblue {
+  color: var(--lightblue);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
+.text-pink {
+  color: var(--pink);
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+/* bg colors */
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-maroon {
+  background-color: var(--maroon);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-lightblue {
+  background-color: var(--lightblue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+
+
+/*
+* Theme - light
+*/
+
+body.theme-light .surface-a {
+  background-color: var(--gray-l);
+}
+
+body.theme-light .surface-b {
+  background-color: var(--white);
+}
+
+/*
+* Theme - dark
+*/
+
+/*
+* Global
+*/
+
+@font-face {
+  font-family: inter;
+  src: url(../assets/fonts/Inter-Regular.woff);
+}
+
+* {
+  font-family: 'inter';
+  font-size: 14px;
+}
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+/*
+* App
+*/
+
+todo-app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}

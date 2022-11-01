@@ -1,0 +1,52 @@
+/*
+* fonts
+*/
+
+/* @font-face {
+  font-family: inter;
+  src: url(/assets/fonts/Inter-Regular.woff);
+}
+
+* {
+  font-family: 'inter';
+}
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+todo-app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+} */
+
+.context-menu-orange-theme {
+  background: var(--gray-l);
+  width: 100px !important;
+  padding: 4px !important;
+  opacity: 0.97;
+  border-radius: 0.2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.context-menu-orange-theme hr {
+  background-color: #eee;
+}
+
+.context-menu-orange-theme > *:not(hr) {
+  color: black;
+  padding: 4px 6px !important;
+  border-radius: 0.2rem;
+}
+
+.context-menu-orange-theme > *:not(hr):hover {
+  background: var(--blue);
+  color: white;
+}

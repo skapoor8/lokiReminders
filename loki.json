@@ -1,0 +1,12 @@
+{
+    "project-name": "todo-app",
+    "js-main": "app.js",
+    "css-main": "app.css",
+    "bootstrap-component": "App",
+    "app-selector": "todo-app",
+    "html-main": "index.html",
+    "mode": "development",
+    "outpath": "",
+    "styles": [],
+    "assets": []
+}

@@ -1,0 +1,7 @@
+/*!
+ * Socket.IO v4.5.0
+ * (c) 2014-2022 Guillermo Rauch
+ * Released under the MIT License.
+ */
+
+/*! For license information please see vanilla-context-menu.js.LICENSE.txt */
