@@ -2,29 +2,29 @@
 
 This is a browser-based clone of the iOS reminders app build with [loki.js](https://github.com/skapoor8/loki)
 
-LIVE DEMO
+[LIVE DEMO](https://lokireminders-e92ec.web.app/)
 
 ## Features
 
 ### A high fidelity clone of the iOS reminders App
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/clone.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/clone.png)
 
 ### Perform CRUD operations on lists
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/crud-lists.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/crud-lists.png)
 
 ### Perform CRUD operation on todo items
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/crud-todo.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/crud-todo.png)
 
 ### Show, hide and clear completed todo items
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/completed.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/completed-items.png)
 
 ### Search filters items in a list
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/search.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/search.png)
 
 ### Persistent storage in your browser
 
@@ -32,7 +32,7 @@ Lists persist across refreshes
 
 ### Completely mobile responsive
 
-![clone](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/responsive.png)
+![image](https://raw.githubusercontent.com/skapoor8/lokiReminders/master/readme_images/responsive.png)
 
 ## Implementation
 
